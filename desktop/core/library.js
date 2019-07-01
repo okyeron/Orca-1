@@ -33,11 +33,7 @@ import _midi from './library/_midi.js'
 import _mono from './library/_mono.js'
 import _keys from './library/_keys.js'
 import _cc from './library/_cc.js'
-<<<<<<< Updated upstream
-=======
-import _midiprogch from './library/_midiprogch.js'
 import _pitchbend from './library/_pitchbend.js'
->>>>>>> Stashed changes
 import _udp from './library/_udp.js'
 import _osc from './library/_osc.js'
 import _self from './library/_self.js'
@@ -85,11 +81,7 @@ export default {
   '%': _mono,
   '&': _keys,
   '!': _cc,
-<<<<<<< Updated upstream
-=======
-  '§': _midiprogch,
   '¢': _pitchbend,
->>>>>>> Stashed changes
   ';': _udp,
   '=': _osc,
   '$': _self
