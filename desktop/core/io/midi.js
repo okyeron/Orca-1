@@ -157,13 +157,13 @@ export default function Midi (terminal) {
   this.sendClockStart = function () {
     if (!this.outputDevice()) { return }
     this.outputDevice().send([0xFA], 0)
-    console.log('MIDI', 'MIDI Start Sent')
+    console.log('MIDI', 'Start Sent')
   }
 
   this.sendClockStop = function () {
     if (!this.outputDevice()) { return }
     this.outputDevice().send([0xFC], 0)
-    console.log('MIDI', 'MIDI Stop Sent')
+    console.log('MIDI', 'Stop Sent')
   }
 
   this.receive = function (msg) {
